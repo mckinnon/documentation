@@ -44,6 +44,7 @@ Login to the target machine and execute the following commands:
   sudo apt install -y software-properties-common build-essential
   sudo apt install -y git unzip gcc zlib1g-dev libgeos-dev libproj-dev
   sudo apt install -y sqlite3 spatialite-bin libsqlite3-mod-spatialite
+  sudo snap install python38
 
   # If the following does not work, you can skip it
   sudo apt install -y libgdal20
